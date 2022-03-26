@@ -5,6 +5,7 @@
   <object class="GtkFileFilter" id="filefilter1">
     <patterns>
       <pattern>"*.iso"</pattern>
+      <pattern>"*.img"</pattern>
     </patterns>
   </object>
   <object class="GtkApplicationWindow" id="window">
@@ -52,7 +53,7 @@
               <object class="GtkLabel">
                 <property name="visible">True</property>
                 <property name="can_focus">False</property>
-                <property name="label" translatable="yes">Choose an ISO </property>
+                <property name="label" translatable="yes">Choose an IMG </property>
                 <attributes>
                   <attribute name="weight" value="bold"/>
                 </attributes>
